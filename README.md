@@ -12,10 +12,9 @@
   ├── DL_ Final Project (Full).ipynb       # 전체 프로젝트 진행 workflow가 담겨 있음
   ├── Final_Project_SMILES.py              # Non-Canonical SMILES에 대해 Fine-Tuning 코드
   ├── Fianl_Project_Canonical_SMILES.py    # Canonical SMILES에 대해 Fine-Tuning 코드
-
-\Dataset
-  ├── qm9.csv                              # Training에 사용된 원본 데이터셋
-  ├── (가공된 데이터셋들)                  # Fine-Tuning에 사용된 추가 데이터셋
+  ├── Dataset                              # 데이터셋 폴더
+       ├── qm9.csv                         # Training에 사용된 원본 데이터셋
+       ├── (가공된 데이터셋들)             # Fine-Tuning에 사용된 추가 데이터셋
 ```
 
 ---
@@ -43,7 +42,7 @@ python Fianl_Project_Canonical_SMILES.py
 ```
 
 #### **Google Colab에서 실행**
-1. `\Dataset` 폴더 전체를 Colab에 업로드합니다.
+1. `\FinalProject\Dataset` 폴더 전체를 Colab에 업로드합니다.
 2. `DL_ Final Project (Full).ipynb`를 Colab에서 열고 셀을 실행합니다.
 
 ---
@@ -51,7 +50,7 @@ python Fianl_Project_Canonical_SMILES.py
 ## **데이터셋**
 
 - **qm9.csv**: QM9 데이터셋은 Fine-Tuning에 사용된 원본 데이터입니다.
-- 추가로 가공된 데이터셋은 `\Dataset` 폴더에 포함되어 있습니다.
+- 추가로 가공된 데이터셋은 `\FinalProject\Dataset` 폴더에 포함되어 있습니다.
 
 ---
 
